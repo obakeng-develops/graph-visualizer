@@ -1,8 +1,11 @@
 import React from 'react'
+import Node from '../atoms/Node'
 
 function Grid() {
   return (
-    <div>Grid</div>
+    <div>
+      <Node/>
+    </div>
   )
 }
 
