@@ -9,14 +9,14 @@ function Grid() {
 
   for (let i = 0; i < 5; i++) {
     let elements:number[] = [];
-    for (let j = 0; j < 10; j++) {
+    for (let j = 0; j < 5; j++) {
       elements.push(0);
     }
 
     matrix.push(elements);
   }
 
-  console.log(matrix);
+  console.log(matrix)
 
   return (
     <div>
