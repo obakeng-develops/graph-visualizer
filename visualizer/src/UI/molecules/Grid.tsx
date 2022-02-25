@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Node from '../atoms/Node'
 
 function Grid() {
+  
   return (
     <div>
       <Node/>
