@@ -14,7 +14,7 @@ function Grid() {
   }
 
   return (
-    <div>
+    <div className='flex'>
       {
         matrix.map((row, rowIdx) => {
           return <>
