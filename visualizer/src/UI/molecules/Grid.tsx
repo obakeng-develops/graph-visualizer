@@ -1,9 +1,9 @@
 import React from 'react'
 
-function PathFindingVisualizer() {
+function Grid() {
   return (
-    <div>PathFindingVisualizer</div>
+    <div>Grid</div>
   )
 }
 
-export default PathFindingVisualizer
+export default Grid
