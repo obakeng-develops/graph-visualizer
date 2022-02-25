@@ -16,8 +16,6 @@ function Grid() {
     matrix.push(elements);
   }
 
-  console.log(matrix)
-
   return (
     <div>
       <Node/>
