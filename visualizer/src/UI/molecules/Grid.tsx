@@ -19,11 +19,9 @@ function Grid() {
     <div>
       {
         matrix.map((row, rowIdx) => {
-          return (
-            <div key={rowIdx}>
-              <Node></Node>
-            </div>
-          )
+          return <>
+           {row.map((node, nodeIdx) => <div><Node></Node></div>)}
+          </>
         })
       }
     </div>
