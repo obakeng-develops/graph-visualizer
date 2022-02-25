@@ -1,9 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Node from '../atoms/Node'
 
 function Grid() {
-  
-  let [nodes, setNode] = useState([]);
 
   let matrix:number[][] = [];
 
