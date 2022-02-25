@@ -3,6 +3,10 @@ import Node from '../atoms/Node'
 
 function Grid() {
   
+  let [nodes, setNode] = useState([]);
+
+  
+
   return (
     <div>
       <Node/>
