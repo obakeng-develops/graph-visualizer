@@ -1,5 +1,5 @@
 import React from 'react';
-import Node from './atoms/Node';
+import Node from './UI/atoms/Node';
 
 function App() {
 
