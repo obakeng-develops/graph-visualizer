@@ -18,7 +18,7 @@ function Grid() {
       {
         matrix.map((row, rowIdx) => {
           return <>
-           {row.map((node, nodeIdx) => <div key={nodeIdx}><Node></Node></div>)}
+           {row.map((node, nodeIdx) => <div key={rowIdx + nodeIdx}><Node></Node></div>)}
           </>
         })
       }
