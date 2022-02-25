@@ -12,13 +12,20 @@ function Grid() {
     for (let j = 0; j < 5; j++) {
       elements.push(0);
     }
-
     matrix.push(elements);
   }
 
   return (
     <div>
-      <Node/>
+      {
+        matrix.map((row, rowIdx) => {
+          return (
+            <div key={rowIdx}>
+              <Node></Node>
+            </div>
+          )
+        })
+      }
     </div>
   )
 }
