@@ -14,7 +14,7 @@ function Grid() {
   }
 
   return (
-    <div className='flex grid grid-cols-5 absolute m-0'>
+    <div className=''>
       {
         matrix.map((row, rowIdx) => {
           return <>
