@@ -5,16 +5,16 @@ function Grid() {
 
   let matrix:number[][] = [];
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 20; i++) {
     let elements:number[] = [];
-    for (let j = 0; j < 5; j++) {
+    for (let j = 0; j < 10; j++) {
       elements.push(0);
     }
     matrix.push(elements);
   }
 
   return (
-    <div className='grid grid-cols-5 grid-rows-5 m-0 absolute'>
+    <div className='w-80 h-96 flex flex-wrap'>
       {
         matrix.map((row, rowIdx) => {
           return <>
