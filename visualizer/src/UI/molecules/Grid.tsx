@@ -14,7 +14,7 @@ function Grid() {
   }
 
   return (
-    <div className=''>
+    <div className='grid grid-cols-5 grid-rows-5 m-0 '>
       {
         matrix.map((row, rowIdx) => {
           return <>
